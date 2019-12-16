@@ -4,13 +4,17 @@ import React from 'react';
 //Importo la imagen de MYtinerary para embeberla en la cabecera 
 import MYtinerary from '../img/MYtinerary.png';
 import '../estilos/estilo.css';
+import Nav from './Nav';
 
-
-class Header extends React.Component{
+class Header extends React.Component {
     render() {
-        return(
+        return (
             //Utilizo JSX para armar la interfaz de usuario del componente header
-            <img src={MYtinerary} alt='Imagen header' className="App-title"  />
+
+            <div>
+                <Nav />
+                <img src={MYtinerary} alt='Imagen header' className="App-title" />
+            </div>
         );
     }
 }
