@@ -2,10 +2,13 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import '../estilos/estilo.css';
 
+
 class FormularioRegistros extends React.Component {
     render() {
         return (
             //Creo un formulario para registrarse con la clase formulario para darle estilo
+
+            <div>
                 <form className="formulario">
                     <h1 className="titulo">Registrate</h1>
                     <div className="contenedor">
@@ -35,6 +38,7 @@ class FormularioRegistros extends React.Component {
 
                     </div>
                 </form>
+            </div>
         );
     }
 }
