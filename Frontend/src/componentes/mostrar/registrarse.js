@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './header';
-import Footer from './footer';
 import FormularioRegistros from './formularioregistros';
 
 function Registrarse() {
@@ -8,7 +7,6 @@ function Registrarse() {
     <div className="CreateAccount">
       <Header />
       <FormularioRegistros />
-      <Footer />
     </div>
   );
 }

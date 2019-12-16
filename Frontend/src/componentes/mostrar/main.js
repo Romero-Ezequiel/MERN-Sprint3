@@ -23,6 +23,3 @@ class Main extends React.Component {
 }
 
 export default Main;
-  /* <Link to={'./ciudades'} >
-              <img src={logo} alt='Imagen Flecha' className="App-logo" />
-              </Link>*/
