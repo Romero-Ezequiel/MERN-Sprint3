@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './header';
-import Footer from './footer';
 import FormularioLogin from './formulariologin';
 
 function Login() {
@@ -8,7 +7,6 @@ function Login() {
     <div className="Login">
       <Header />
       <FormularioLogin />
-      <Footer />
     </div>
   );
 }
