@@ -3,7 +3,6 @@
 const City = require ('../model/city');
 // const FrontEnd = require ('../frontEnd/public/index.html')
 
-
 function helloServer (req, res) {
   res.send('Bienvenido al Servidor' );
 }

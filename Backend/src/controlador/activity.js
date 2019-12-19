@@ -1,10 +1,7 @@
 const Activity = require("../model/activity");
 
-
 function getActivity(req, res) {
-
     let activityId = req.params.itineraryId;
-
     Activity.find({ itineraryId: `${activityId}` }, (err, activity) => {
         if (err)
             res
@@ -37,18 +34,14 @@ function getActivities(req, res) {
             })
 
             res.status(200).send({ Activities });
-
     });
 }
 
 function saveActivity(req, res) {
     console.log("POST /Activity");
     console.log(req.body);
-
     let activity = new Activity();
-
     activity.image = req.body.image;
-
 
     activity.save((err, activityStored) => {
         if (err)
