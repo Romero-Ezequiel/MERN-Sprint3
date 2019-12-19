@@ -1,9 +1,0 @@
-export const FETCH_DATA = "FETCH_DATA";
-export const LEAVE_DATA = "LEAVE_DATA";
-export const SET_FILTER_TEXT = "SET_FILTER_TEXT";
-export const SET_ON_FILTER_TEXT_CHANGE = "SET_ON_FILTER_TEXT_CHANGE";
-//export const CREATE_LOCAL_CITIES = "CREATE_LOCAL_CITIES";
-export const ADD_ARTICLE = "ADD_ARTICLE";
-export const ADD_CITY = "ADD_CITY";
-export const ADD_ITINERARY = "ADD_ITINERARY";
-

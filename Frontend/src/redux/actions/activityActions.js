@@ -26,7 +26,6 @@ function getActivity(itineraryId) {
   }
 }
 
-
 export {
     addActivity, deleteActivity, getActivity
 }

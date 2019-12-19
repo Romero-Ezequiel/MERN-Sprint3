@@ -1,29 +1,27 @@
-
-import React from 'react';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './componentes/mostrar/home';
-import Login from './componentes/mostrar/login';
-import Ciudades from './componentes/mostrar/ciudades';
-import Registrarse from './componentes/mostrar/registrarse';
-
+import React from "react";
+import { Route, BrowserRouter as Router } from "react-router-dom";
+import Home from "./screen/home";
+import Login from "./screen/login";
+import CreateAccount from "./screen/crateAccount";
+import Cities from "./screen/cities";
+import CitiesBD from "./screen/cities-bd";
+import Redux from "./screen/redux";
+import Itinerary from "./screen/itinerary";
 
 function App() {
   return (
     <div className="App">
-
       <Router>
-        <div className="container p-10">
-          <Route exact path='/' component={Home} />
-          <Route path='/login' component={Login} />
-          <Route path='/registrarse' component={Registrarse} />
-          <Route path='/ciudades' component={Ciudades} />
-        </div>
-
+        <Route exact path="/" component={Home} />
+        <Route path="/login" component={Login} />
+        <Route path="/createAccount" component={CreateAccount} />
+        <Route path="/cities" component={Cities} />
+        <Route path="/cities-bd" component={CitiesBD} />
+        <Route path="/list-cities" component={Redux} />
+        <Route path="/itineraries/:cityId" component={Itinerary} />
       </Router>
     </div>
   );
 }
-
 
 export default App;
