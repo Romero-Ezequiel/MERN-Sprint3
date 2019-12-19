@@ -29,7 +29,7 @@ _Las herramientas que utilice para crear la app son:_
 * [cors](https://www.npmjs.com/package/cors) - Este middleware nos permite la comunicación entre el servidor del cliente y del backend
 * [concurrently](https://www.npmjs.com/package/concurrently) - Para poder levantar tanto el Frontend como el Backend
 * [react-redux](https://www.npmjs.com/package/react-redux) - 
-
+* [axios](https://www.npmjs.com/package/axios) - 
 
 ### Autor ✒️
 
